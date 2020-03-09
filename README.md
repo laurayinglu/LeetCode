@@ -1,5 +1,5 @@
 # LeetCode
-leetcode exercises followed by the order: https://zhuanlan.zhihu.com/p/89392459
+Leetcode exercises followed by the order from: https://zhuanlan.zhihu.com/p/89392459
 
 ### Pattern: Sliding window
 
