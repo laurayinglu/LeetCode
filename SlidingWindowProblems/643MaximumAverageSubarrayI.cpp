@@ -1,3 +1,26 @@
+
+//Given an array consisting of n integers, 
+//find the contiguous subarray of given length k 
+//that has the maximum average value. And you need to output the maximum average value.
+
+// sliding solution
+double findMaxAverage(vector<int>& nums, int k) {
+    double sum=0, res=INT_MIN;
+    for(int i=0;i<nums.size();i++) {
+        if(i<k) sum+=nums[i];
+        else {
+            res=max(sum, res);
+            sum+=nums[i]-nums[i-k];
+        }
+    }
+    res=max(sum, res);
+    return res/k;
+}
+
+// time: O(n)
+// space: O(1)
+
+// my solution: better way is use cumulative sum, sum[i] = sum[i-1]+nums.at(i)
 class Solution {
 public:
     double findMaxAverage(vector<int>& nums, int k) {
@@ -41,6 +64,3 @@ public:
 // Runtime: 1480 ms, faster than 5.09%
 // Memory Usage: 16 MB, less than 100.00%
 
-
-
-// better solution
