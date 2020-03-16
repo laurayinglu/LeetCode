@@ -17,7 +17,7 @@ Longest Substring with Same Letters after Replacement (hard)
 
 Longest Subarray with Ones after Replacement (hard)
 
-### Pattern: two points
+### Pattern: two pointers
 
 Pair with Target Sum (easy)
 
