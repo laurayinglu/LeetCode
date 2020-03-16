@@ -10,7 +10,7 @@ You may assume all the characters consist of printable ascii characters.
 class Solution {
 public:
     void reverseString(vector<char>& s) {
-        int size = s.size();
+        int size = s.size()-1;
         int l = 0;
         int r = size;
         
@@ -19,6 +19,9 @@ public:
             char temp = s[r];
             s[r--] = s[l];
             s[l++] = temp;
+            
+            // or use swap function 
+            // swap(s[r--], s[l++]);
         }
     }
 };
