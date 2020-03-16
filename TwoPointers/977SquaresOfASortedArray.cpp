@@ -5,12 +5,8 @@ class Solution {
 public:
     vector<int> sortedSquares(vector<int>& A) {
         // two pointers
-        vector<int> res;
-        
-        for(int i = 0; i<A.size(); i++)
-            res.push_back(A[i]);
-        
         int size = A.size()-1;
+        vector<int> res(size);
         int i = 0;
         int j = size;
         
