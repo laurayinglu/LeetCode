@@ -10,6 +10,15 @@ You may assume all the characters consist of printable ascii characters.
 class Solution {
 public:
     void reverseString(vector<char>& s) {
+        int size = s.size();
+        int l = 0;
+        int r = size;
         
+        while(l <= r)
+        {
+            char temp = s[r];
+            s[r--] = s[l];
+            s[l++] = temp;
+        }
     }
 };
