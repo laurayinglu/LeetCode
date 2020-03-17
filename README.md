@@ -23,7 +23,9 @@ Leetcode exercises followed by the order from: https://zhuanlan.zhihu.com/p/8939
 
 #### Pattern: two pointers (https://leetcode.com/tag/two-pointers/)
 
-- [x] Intersection of Two Arrays
+- [x] Intersection of Two Arrays (easy)
+
+- [x] Reverse String (easy)
 
 - [x] Two Sum II (easy)
 
