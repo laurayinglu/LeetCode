@@ -7,6 +7,8 @@ Leetcode exercises followed by the order from: https://zhuanlan.zhihu.com/p/8939
 
 - [x] Maximum Avg Subarray of length K (easy)
 
+- [x] Move Zeroes (easy)
+
 - [ ] Smallest Subarray with a given sum (easy)
 
 - [ ] Longest Substring with K Distinct Characters (medium)
