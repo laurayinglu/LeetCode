@@ -1,7 +1,7 @@
 # LeetCode
 Leetcode exercises followed by the order from: https://zhuanlan.zhihu.com/p/89392459
 
-### Pattern: Sliding window (https://leetcode.com/tag/sliding-window/)
+#### Pattern: Sliding window (https://leetcode.com/tag/sliding-window/)
 
 - [x] Maximum Sum Subarray (easy)
 
@@ -21,7 +21,7 @@ Leetcode exercises followed by the order from: https://zhuanlan.zhihu.com/p/8939
 
 - [ ] Longest Subarray with Ones after Replacement (hard)
 
-### Pattern: two pointers (https://leetcode.com/tag/two-pointers/)
+#### Pattern: two pointers (https://leetcode.com/tag/two-pointers/)
 
 - [x] Intersection of Two Arrays
 
@@ -43,7 +43,7 @@ Leetcode exercises followed by the order from: https://zhuanlan.zhihu.com/p/8939
 
 - [ ] Dutch National Flag Problem (medium)
 
-### Pattern: Fast & Slow pointers
+#### Pattern: Fast & Slow pointers
 
 - [ ] LinkedList Cycle (easy)
 
