@@ -25,11 +25,13 @@ Leetcode exercises followed by the order from: https://zhuanlan.zhihu.com/p/8939
 
 - [x] Intersection of Two Arrays
 
+- [x] Two Sum II (easy)
+
+- [x] Squaring a Sorted Array (easy)
+
 - [ ] Pair with Target Sum (easy)
 
 - [ ] Remove Duplicates (easy)
-
-- [x] Squaring a Sorted Array (easy)
 
 - [ ] Triplet Sum to Zero (medium)
 
