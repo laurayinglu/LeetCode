@@ -1,5 +1,5 @@
 # LeetCode
-Leetcode exercises followed by the order from: https://zhuanlan.zhihu.com/p/89392459
+Leetcode exercises followed by the order from: https://zhuanlan.zhihu.com/p/89392459 and https://leetcode.com/tag/two-pointers/
 
 ### Pattern: Sliding window
 
