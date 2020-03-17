@@ -48,8 +48,8 @@ public:
     }
     
 };
-// time: O(nlogn)
-// space: O(1)
+// time: O(max(m, n) log(max(m, n))) 
+// space: O(m+n)
 // we can also use hashmap to record frequencies
 
 // equivalent way
@@ -59,11 +59,12 @@ public:
   return a;
 
 // use hashmap version
-  unordered_map<int, int> ctr;
-    for (int i : a)
-        ctr[i]++;
-    vector<int> out;
-    for (int i : b)
-        if (ctr[i]-- > 0)
-            out.push_back(i);
-    return out;
+  unordered_map<int, int> dict;
+  vector<int> res;
+  for(int i = 0; i < (int)nums1.size(); i++) dict[nums1[i]]++;
+  for(int i = 0; i < (int)nums2.size(); i++)
+      if(dict.find(nums2[i]) != dict.end() && --dict[nums2[i]] >= 0) res.push_back(nums2[i]);
+  return res;
+
+// time: O(m + n) 
+// space: O(m)
