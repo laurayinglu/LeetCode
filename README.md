@@ -19,11 +19,13 @@ Longest Subarray with Ones after Replacement (hard)
 
 ### Pattern: two pointers
 
+- [x] Intersection of Two Arrays
+
 Pair with Target Sum (easy)
 
 Remove Duplicates (easy)
 
-Squaring a Sorted Array (easy)
+- [x] Squaring a Sorted Array (easy)
 
 Triplet Sum to Zero (medium)
 
