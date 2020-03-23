@@ -33,7 +33,7 @@ Leetcode exercises followed by the order from: https://zhuanlan.zhihu.com/p/8939
 
 - [ ] Pair with Target Sum (easy)
 
-- [ ] Remove Duplicates (easy)
+- [x] Remove Duplicates (easy)
 
 - [ ] Triplet Sum to Zero (medium)
 
