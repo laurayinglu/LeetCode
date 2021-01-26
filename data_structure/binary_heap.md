@@ -12,10 +12,10 @@
 
 - **Binary heap**: array representation of a heap-ordered complete binary tree
 
-![alt text](binary_heap.png)
+    <img src="binary_heap.png" alt="drawing" width="350"/>
 
     - largest key is a[1], which is the root of the binary tree
-    - parent of node at k is k/2
-    - children of node k are 2k and 2k+1
+    - parent of node at k is k/2  
+    - children of node k are 2k and 2k+1  
 
-![alt text](heap2.png)
+    <img src="heap2.png" alt="drawing" width="350"/>
