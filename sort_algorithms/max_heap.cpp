@@ -1,4 +1,3 @@
-
 // given an array, create max-heap
 // heaps are an implementation of priority queue
 #include <iostream>
@@ -128,26 +127,4 @@ class MaxHeap {
             
             cout << endl;
         }
-}
-
-
-int main() {
-    MaxHeap h(11);
-    h.insertKey(3);
-    h.insertKey(2); 
-    //h.deleteKey(1); 
-    h.insertKey(15); 
-    h.insertKey(5); 
-    h.insertKey(4); 
-    h.insertKey(45); 
-    cout << h.getHeapSize() << endl; // 6
-    h.print(); // 45 ...
-    cout << h.extractMax() << endl; // delete 45
-    h.print(); // 15 ...
-    h.deleteKey(15);
-    cout << h.getMax() << endl;  // get 5
-    h.print(); // 5 ...
-    h.insertKey(450); 
-    h.print(); // 45 ...
-    return 0; 
 }

@@ -3,9 +3,18 @@
 
 using namespace std;
 
-class PriorityQueue{
-
+struct Node // node declaration 
+{ 
+    int priority;
+    int info;
+    struct Node * next;
 };
+
+class PriorityQueue{
+    private: 
+        Node *f;
+};
+
 
 int main() {
     
