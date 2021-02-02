@@ -1,13 +1,13 @@
 # LeetCode
-Leetcode exercises followed by the order from: https://zhuanlan.zhihu.com/p/89392459
+Leetcode exercises followed by the order from: https://www.changgy.com/leetcode-101
 
-#### Pattern: Sliding window (https://leetcode.com/tag/sliding-window/)
+#### Pattern: Greedy
 
-- [x] Maximum Sum Subarray (easy)
+- [ ] 455 Assign cookies (easy)
 
-- [x] Maximum Avg Subarray of length K (easy)
+- [ ] 135 Candy (hard)
 
-- [x] Move Zeroes (easy)
+- [ ] Move Zeroes (easy)
 
 - [ ] Smallest Subarray with a given sum (easy)
 
@@ -21,7 +21,7 @@ Leetcode exercises followed by the order from: https://zhuanlan.zhihu.com/p/8939
 
 - [ ] Longest Subarray with Ones after Replacement (hard)
 
-#### Pattern: two pointers (https://leetcode.com/tag/two-pointers/)
+#### Pattern: two pointers/sliding window (https://leetcode.com/tag/two-pointers/)
 
 - [x] Intersection of Two Arrays (easy)
 
@@ -45,7 +45,7 @@ Leetcode exercises followed by the order from: https://zhuanlan.zhihu.com/p/8939
 
 - [ ] Dutch National Flag Problem (medium)
 
-#### Pattern: Fast & Slow pointers
+#### Pattern: Binary search 
 
 - [ ] LinkedList Cycle (easy)
 
@@ -54,3 +54,12 @@ Leetcode exercises followed by the order from: https://zhuanlan.zhihu.com/p/8939
 - [ ] Happy Number (medium)
 
 - [ ] Middle of the LinkedList (easy)
+
+#### Pattern: sort algorithms
+
+
+#### Pattern: search algorithms
+
+
+
+#### Pattern: DP
