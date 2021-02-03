@@ -2,6 +2,7 @@
 // repeatedly remove the maximum key
 
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -81,5 +82,24 @@ int main() {
     heap_sort(arr, size);
 
     print(arr, size);
-    
+    char x = 'a' + 1;
+    cout << x << endl;
+
+    // test 
+
+    vector <int> res(6);
+    res[0] = 3;
+    res[1] = 0;
+    res[2] = 0;
+    res[3] = 0;
+    res[4] = 0;
+    res[5] = 0;
+    vector <int> B ;//= res;
+    for (int i = 0 ; i < res.size(); i++)
+        cout << B[i]<<" ";
+    B.insert(B.begin(), res[0]);
+    for (int i = 0 ; i < B.size(); i++)
+        cout << B[i]<<" ";
+
+    cout <<endl;
 }
