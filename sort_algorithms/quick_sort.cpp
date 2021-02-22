@@ -1,5 +1,7 @@
 /*
 in-place 
+avg: O(nlogn)
+worst case: O(n^2)
 improvements: insertion sort small subarrays
 best choice of pivot: median
 this takes last element as pivot
